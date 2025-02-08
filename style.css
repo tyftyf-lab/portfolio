@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Romantic";
+    src: url("fonts/ROMANTIC.woff2") format("woff2"),
+         url("fonts/ROMANTIC.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +14,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    font-family: "Romantic", sans-serif;
+    background-color: #790000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -28,6 +37,8 @@ nav ul li a {
 }
 
 h2 {
+    font-family: "Romantic", sans-serif;
+    color: #790000
     text-align: center;
     margin-top: 20px;
 }
