@@ -16,22 +16,64 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle"> <!-- The checkbox is hidden -->
+          <span class="slider round"></span> <!-- The slider (the part that moves) -->
+        </label>
+        </div>
     </header>
+    
+    <audio controls>
+        <source src="audios/droledevie.mp3" type="audio/mpeg">
+        <source src="audios/droledevie.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
 
     <section id="about">
-        <h2>About Me</h2>
+        <h2>ABOUT ME</h2>
         <p>Hi, I'm Tyfenn! I create awesome artwork and designs.</p>
     </section>
 
     <section id="projects">
-        <h2>My Artworks</h2>
-        <img src="images/autocollant1.png" alt="Artwork 1">
-        <img src="images/autocollant4.png" alt="Artwork 2">
+        <h2>MY ARTWORKS</h2>
+        <div class="container">
+            <div class="box">
+                <div class="column">
+                    <img src="images/autocollant1.png" alt="Artwork 1">
+                    <img src="images/hidden.png" alt="Artwork 4">
+                </div>
+                
+                <div class="column">
+                    <img src="images/todo sobre mi madre.png" alt="Artwork 5">
+                    <img src="images/TYF.png" alt="Artwork 6">
+                    <img src="images/CROCS.png" alt="CROCS">
+                </div>
+                
+                <div class="column">
+                    <img src="images/autocollant3.png" alt="Artwork 2">
+                    <img src="images/lolo.png" alt="lolo">
+                </div>
+                
+                <div class="column">
+                    <img src="images/alice.png" alt="alice">
+                    <img src="images/autocollant4.png" alt="autocollant 4">
+                    <img src="images/LAST TIME.png" alt="LAST TIME">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>CONTACT ME</h2>
+        <p>email: tyfenn.forner@hotmaiI.com</p>
+        <p>instagram: tyfenn.forner</p>
     </section>
 
     <footer>
         <p>&copy; 2024 tyfenn forner. All Rights Reserved.</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
 
